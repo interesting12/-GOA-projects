@@ -19,6 +19,91 @@ for i in range(2):
     left(90)
 end_fill()
 
+#mta
+penup()
+goto(-470, -100)
+pendown()
+
+
+begin_fill()
+color("gray")
+for i in range(3):
+    forward(430)
+    left(120)
+end_fill()
+
+
+
+#yinulo
+penup()
+goto(-302, 190)
+pendown()
+
+begin_fill()
+color("white")
+for i in range(3):
+    forward(95)
+    left(120)
+end_fill()
+
+
+
+#meore mta
+penup()
+goto(-200, -100)
+pendown()
+
+begin_fill()
+color("gray")
+for i in range(3):
+    forward(500)
+    left(120)
+end_fill()
+
+
+#yinuli2
+
+penup()
+goto(-2, 240)
+pendown()
+
+begin_fill()
+color("white")
+for i in range(3):
+    forward(105)
+    left(120)
+end_fill()
+
+
+#mesame mta
+
+penup()
+goto(140, -100)
+pendown()
+
+
+begin_fill()
+color("gray")
+for i in range(3):
+    forward(430)
+    left(120)
+end_fill()
+
+#yinuli3
+
+penup()
+goto(308, 190)
+pendown()
+
+begin_fill()
+color("white")
+for i in range(3):
+    forward(95)
+    left(120)
+end_fill()
+
+
+
 #Sun
 penup()
 goto(-320, 225)
@@ -34,7 +119,7 @@ penup()
 goto(-100, -100)
 pendown()
 pensize(3)
-color("chocolate", "gray") # (stroke, fill)
+color("chocolate", "orange") # (stroke, fill)
 
 # castle1
 begin_fill()
@@ -152,7 +237,7 @@ penup()
 goto(-25,90 )
 pendown()
 
-color("chocolate", "gray")
+color("chocolate", "orange")
 begin_fill()
 left(180)
 forward(160)
@@ -182,7 +267,7 @@ penup()
 goto(16, 90)
 pendown()
 
-color("chocolate", "gray")
+color("chocolate", "orange")
 begin_fill()
 right(40)
 forward(25)
@@ -217,7 +302,7 @@ forward(1)
 
 
 #right svet
-color("chocolate","gray")
+color("chocolate","orange")
 penup()
 goto( 170, -100)
 pendown()
@@ -229,6 +314,10 @@ forward(120)
 right(90)
 forward(280)
 end_fill()
+
+
+#left mini svet
+
 
 #right svetis roof
 #right svetis roof
@@ -647,5 +736,306 @@ begin_fill()
 circle(13)
 end_fill()
 
-exitonclick()
+color("yellow")
+for i in range(4):
+    forward(10)
+    right(140)
 
+
+
+#lef left svet
+color("chocolate", "orange") 
+begin_fill()
+penup()
+goto(-214, -100)
+pendown()
+
+right(70)
+
+
+for i in range(4):
+    forward(120)
+    right(90)
+
+end_fill()
+#left left svet roof
+color("chocolate", "brown")
+
+
+penup()
+goto(-334, 20)
+pendown()
+
+begin_fill()
+forward(3)
+right(90)
+forward(30)
+
+right(90)
+forward(18)
+right(90)
+forward(16)
+left(90)
+forward(19)
+left(90)
+forward(16)
+right(90)
+forward(19)
+
+right(90)
+forward(16)
+left(90)
+forward(19)
+left(90)
+forward(16)
+right(90)
+forward(18)
+right(90)
+forward(16)
+left(90)
+forward(19)
+left(90)
+forward(16)
+right(90)
+forward(15)
+right(90)
+forward(30)
+
+end_fill()
+
+#left lweft svet windows
+penup()
+goto(-300, -35)
+pendown()
+
+color("brown")
+begin_fill()
+
+for i in range(4):
+    forward(40)
+    left(90)
+end_fill()
+
+#circle
+penup()
+goto(-300, -30)
+pendown()
+
+color("brown")
+begin_fill()
+circle(20)
+end_fill()
+
+#right right svet
+
+penup()
+goto( 290, -100)
+pendown()
+
+color("chocolate", "orange")
+begin_fill()
+left(90)
+for i in range(4):
+    forward(100)
+    left(90)
+end_fill()
+#right right svet roof
+
+color("chocolate", "brown")
+
+
+penup()
+goto(290, 20)
+pendown()
+
+begin_fill()
+
+left(90)
+forward(10)
+right(90)
+forward(18)
+right(90)
+forward(16)
+left(90)
+forward(19)
+left(90)
+forward(16)
+right(90)
+forward(19)
+
+right(90)
+forward(16)
+left(90)
+forward(19)
+left(90)
+forward(16)
+right(90)
+forward(18)
+right(90)
+forward(16)
+left(90)
+forward(19)
+left(90)
+forward(16)
+right(90)
+forward(15)
+right(90)
+forward(30)
+right(90)
+
+forward(125)
+
+end_fill()
+
+#right right svet windows
+penup()
+goto(350, -35)
+pendown()
+
+
+
+color("brown")
+begin_fill()
+
+for i in range(4):
+    forward(40)
+    left(90)
+end_fill()
+
+#circle
+penup()
+goto(330, -15)
+pendown()
+
+color("brown")
+begin_fill()
+circle(20)
+end_fill()
+
+
+################################################################################
+
+# agurebi
+
+color("chocolate", "brown")
+width(3)
+
+
+penup()
+goto(396, -70)
+pendown()
+
+forward(45)
+
+penup()
+goto(309, -70)
+pendown()
+
+forward(220)
+
+penup()
+goto(-33, -70)
+pendown()
+
+forward(225)
+
+penup()
+goto(-299, -70)
+pendown()
+
+forward(30)
+
+
+
+
+
+#meore xazi
+penup()
+goto(396, -30)
+pendown()
+
+forward(45)
+
+penup()
+goto(309, -50)
+pendown()
+
+forward(220)
+
+penup()
+goto(-33, -50)
+pendown()
+
+forward(225)
+
+penup()
+goto(-299, -50)
+pendown()
+
+forward(30)
+
+#MESAME XAZI
+penup()
+goto(396, 30)
+pendown()
+
+forward(45)
+
+penup()
+goto(309, -30)
+pendown()
+
+forward(220)
+
+penup()
+goto(-33, -30)
+pendown()
+
+forward(225)
+
+penup()
+goto(-299, -30)
+pendown()
+
+forward(30)
+
+
+
+###################
+penup()
+goto(370, -30)
+pendown()
+
+left(90)
+forward(20)
+left(90)
+forward(20)
+left(180)
+forward(40)
+left(90)
+forward(20)
+left(90)
+forward(10)
+right(90)
+forward(30)
+right(90)
+forward(50)
+right(90)
+forward(30)
+left(90)
+forward(10)
+right(90)
+forward(20)
+left(90)
+forward(30)
+right(90)
+forward(20)
+left(90)
+forward(30)
+left(90)
+forward(20)
+right(90)
+forward(20)
+
+
+exitonclick()
