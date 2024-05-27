@@ -1110,12 +1110,8 @@ forward(20)
 
 
 penup()
-goto(-233, -50)
+goto(-230, -50)
 pendown()
-
-left(180)
-forward(20)
-
 
 
 
